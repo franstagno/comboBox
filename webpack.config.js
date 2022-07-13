@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const Dotenv = require("dotenv-webpack");
 const CopyPlugin = require("copy-webpack-plugin");
 
+console.log(path.resolve(__dirname));
 module.exports = {
 	entry: {
 		home: path.join(__dirname, "src/views/Home.js"),

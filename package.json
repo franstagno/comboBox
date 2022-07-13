@@ -15,7 +15,8 @@
 		"react-device-detect": "^2.2.2",
 		"react-dom": "^18.1.0",
 		"style-loader": "^3.3.1",
-		"styled-components": "^5.3.5"
+		"styled-components": "^5.3.5",
+		"ts-jest": "^28.0.5"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.18.2",
