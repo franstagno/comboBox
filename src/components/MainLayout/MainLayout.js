@@ -21,10 +21,6 @@ const MainLayout = () => {
 					<>Selecciona un color</>
 				)}
 			</Text>
-			<Text>
-				Se empieza a filtrar apartir de la 3er letra en el input debido
-				a que asi entendi la consigna.
-			</Text>
 		</Wrapper>
 	);
 };
