@@ -9,7 +9,15 @@ export const filterByName = (options, name) => {
 };
 
 export const mustBeRemovedBlur = (event) => {
-	if (!event.relatedTarget || !/notBlur/.test(event.relatedTarget.className))
-		return true;
-	return false;
+	try {
+		if (
+			!event.relatedTarget ||
+			!/notBlur/.test(event.relatedTarget.className)
+		)
+			return true;
+		return false;
+	} catch (error) {
+		console.warn("function mustBeRemovedBlur", error);
+		return false;
+	}
 };
